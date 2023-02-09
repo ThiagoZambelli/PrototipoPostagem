@@ -1,9 +1,10 @@
 .filtro{
-    padding: 1rem;
+    padding: 1rem;    
 }
 .menu-filtro-checkbox{
-    display: none;
+    display: none;    
 }
+
 #menu-filtro:checked ~ .menu-filtro-container{
     display: none;
 }
@@ -11,7 +12,7 @@
     align-items: center;
     justify-content:center;
     column-gap: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 .filtro-pesquisa-container{
     flex-direction: column;
@@ -30,5 +31,11 @@
     background-color: none;
     border-radius: 10px;
     cursor: pointer;
+    
+}
+@media screen and (max-width: 800px) {
+    .filtro-btn img{
+        width: 24px;
+    }
     
 }
