@@ -1,0 +1,43 @@
+.postagem{
+    width: 50vw; 
+    flex-direction: column;   
+    background-color: var(--Fundo-cor-principal);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+.postagem-cabecalho{
+    align-items: center;
+    justify-self: center;
+    column-gap: 2rem;    
+}
+.postagem-avatar{
+    width: 15%;
+    border-radius: 10px;
+}
+
+.postagem-autor{
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--texto-cor-secundaria);
+    cursor: pointer;
+}
+
+.postagem-corpo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.postagem-titulo{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--texto-cor-secundaria);
+}
+.postagem-corpo{
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: var(--fonte-principal);
+    color: var(---texto-cor-principal);
+}
