@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 @import url('postagem.css');
+@import url('filtro.css');
 
 :root{
     --texto-cor-principal:#F48484;
     --texto-cor-secundaria:#F55050;
     --Fundo-cor-principal:#86A3B8;
     --fundo-cor-secundario:#E8D2A6;
-    --fonte-principal: 'Sassy Frass', cursive;
+    --fonte-principal:'Cinzel', serif;
+    --fonte-principal-antiga: 'Sassy Frass', cursive;
     --fonte-secundaria: font-family: 'Caveat', cursive;
 
+}
+.inline__container{
+    display: inline;
+}
+.none__container{
+    display: none;
 }
 
 body{

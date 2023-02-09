@@ -1,3 +1,11 @@
+.sempostagens{
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+    font-weight: bold;
+    padding: 1em 0;
+    display: none;
+}
 .postagem{
     width: 50vw; 
     flex-direction: column;   
@@ -27,17 +35,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
 
 }
 .postagem-titulo{
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: var(--fonte-secundaria);
     color: var(--texto-cor-secundaria);
+    text-align: center;
+    padding-bottom: 1em;
 }
-.postagem-corpo{
-    font-weight: 500;
-    font-size: 2rem;
+.postagem-corpo{    
+    font-size: 1.5rem;
     font-family: var(--fonte-principal);
     color: var(---texto-cor-principal);
 }

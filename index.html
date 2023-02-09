@@ -11,6 +11,21 @@
 <body>
 
     <main>
+        <section class="filtro" id="filtro">
+            <input type="checkbox" id="menu-filtro" class="menu-filtro-checkbox" checked>
+            <label for="menu-filtro"><img src="img/FiltroBtn.png"  class="menu-filtro-bnt" alt=""></label>
+            <div class="menu-filtro-container flex__container">
+                <div class="filtro-pesquisa-container flex__container">
+                    <input type="search" class="filtro-pesquisa" id="filtro-pesquisa" placeholder="Digite o titulo desejado">
+                    <button class="filtro-btn btn-pesquisar" data-filtro-btn="pesquisar" value="pesquisar">Pesquisar</button>
+                </div>
+                <button class="filtro-btn btn-crescente" data-filtro-btn="crescente" value="crescente"><img src="img/crescente.png" alt=""></button>
+                <button class="filtro-btn btn-decrecente" data-filtro-btn="decrecente" value="decrecente"><img src="img/decrescente.png" alt=""> </button>
+                <button class="filtro-btn btn-decrecente" data-filtro-btn="limpar-filtro" value="limpar-filtro"><img src="img/limpar-filtro.png" alt=""> </button>
+            </div>
+        </section>
+        <hr>
+        <section class="sempostagens" id="sempostagens"><h2>"Não existe nenhuma postagem com esse Titulo"</h2></section>
         <section class="postagens" id="postagens">
             <!-- <section class="postagem flex__container" id="postagem">
                 <section class="postagem-cabecalho flex__container">
