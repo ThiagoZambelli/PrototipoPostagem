@@ -5,7 +5,7 @@
 
 
 
-# Curso realizado por [Thiago Zambelli][1]
+# Realizado por [Thiago Zambelli][1]
 <h2 align="center">Projeto 100% original</h2>
 
 <h3 align="center"> -> Assuntos abordados <- </h3>
